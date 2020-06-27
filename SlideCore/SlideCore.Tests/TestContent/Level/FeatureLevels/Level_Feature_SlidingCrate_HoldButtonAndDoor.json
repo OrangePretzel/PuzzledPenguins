@@ -1,0 +1,191 @@
+﻿{
+	"Parser": "STD1",
+	"TargetMoves": 0,
+	"Width": 10,
+	"Height": 10,
+	"Entities": [
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 0,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "HaltTile",
+			"X": 1,
+			"Y": 0
+		},
+		{
+			"Type": "HaltTile",
+			"X": 3,
+			"Y": 0
+		},
+		{
+			"Type": "HaltTile",
+			"X": 0,
+			"Y": 1
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 2,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 2,
+			"AdjacentWalls": 17
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 2,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 7,
+			"Y": 2
+		},
+		{
+			"Type": "HaltTile",
+			"X": 3,
+			"Y": 3
+		},
+		{
+			"Type": "WireDoor",
+			"X": 4,
+			"Y": 3
+		},
+		{
+			"Type": "WireButton",
+			"X": 5,
+			"Y": 3,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 6,
+					"Y": 3,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "WireDoor",
+			"X": 6,
+			"Y": 3
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 9,
+			"Y": 3,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 4,
+			"AdjacentWalls": 192
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 5,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 4,
+			"AdjacentWalls": 96
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 5,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 5,
+			"AdjacentWalls": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 5,
+			"AdjacentWalls": 27
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 5,
+			"AdjacentWalls": 20
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 5,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "WireButton",
+			"X": 2,
+			"Y": 6,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 0,
+					"Y": 9,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Player",
+			"X": 9,
+			"Y": 6
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 8,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "WireDoor",
+			"X": 0,
+			"Y": 9
+		},
+		{
+			"Type": "WireButton",
+			"X": 1,
+			"Y": 9,
+			"Mode": "Hold",
+			"Wire": [
+				{
+					"X": 4,
+					"Y": 3,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "HaltTile",
+			"X": 3,
+			"Y": 9
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 9,
+			"AdjacentWalls": 4
+		}
+	]
+}

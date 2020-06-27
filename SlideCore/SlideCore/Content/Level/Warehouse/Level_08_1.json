@@ -1,0 +1,46 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 4,
+	"Width": 5,
+	"Height": 5,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 0
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 3,
+			"Y": 0
+		},
+		{
+			"Type": "Portal",
+			"X": 4,
+			"Y": 0,
+			"PortalTarget": {
+				"X": 0,
+				"Y": 4
+			}
+		},
+		{
+			"Type": "Sushi",
+			"X": 3,
+			"Y": 1
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 1,
+			"Y": 3
+		},
+		{
+			"Type": "Portal",
+			"X": 0,
+			"Y": 4,
+			"PortalTarget": {
+				"X": 4,
+				"Y": 0
+			}
+		}
+	]
+}

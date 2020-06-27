@@ -1,0 +1,53 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 5,
+	"Width": 6,
+	"Height": 6,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 1,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 2,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 2,
+			"Y": 2
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 3,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 4,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Sushi",
+			"X": 4,
+			"Y": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 5,
+			"AdjacentWalls": 4
+		}
+	]
+}

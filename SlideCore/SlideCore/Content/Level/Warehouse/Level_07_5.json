@@ -1,0 +1,173 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 44,
+	"Width": 9,
+	"Height": 10,
+	"Entities": [
+		{
+			"Type": "WireButton",
+			"X": 1,
+			"Y": 0,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 6,
+					"Y": 9,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Sushi",
+			"X": 3,
+			"Y": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 5,
+			"Y": 0,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "Player",
+			"X": 7,
+			"Y": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 1,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 1,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "HaltTile",
+			"X": 1,
+			"Y": 2
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 2,
+			"Y": 2,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "WireButton",
+			"X": 6,
+			"Y": 3,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 7,
+					"Y": 9,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 5,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "HaltTile",
+			"X": 1,
+			"Y": 6
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 6,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 6,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "HaltTile",
+			"X": 0,
+			"Y": 7
+		},
+		{
+			"Type": "HaltTile",
+			"X": 1,
+			"Y": 7
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 6,
+			"Y": 7
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 7,
+			"AdjacentWalls": 100
+		},
+		{
+			"Type": "HaltTile",
+			"X": 1,
+			"Y": 8
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 8,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 8,
+			"AdjacentWalls": 19
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 8,
+			"AdjacentWalls": 20
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 9,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 9,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "WireDoor",
+			"X": 6,
+			"Y": 9
+		},
+		{
+			"Type": "WireDoor",
+			"X": 7,
+			"Y": 9
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 8,
+			"Y": 9
+		}
+	]
+}

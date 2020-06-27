@@ -1,0 +1,112 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 9,
+	"Width": 7,
+	"Height": 7,
+	"Entities": [
+		{
+			"Type": "Sushi",
+			"X": 0,
+			"Y": 0
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "WireButton",
+			"X": 5,
+			"Y": 1,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 3,
+					"Y": 4,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 3,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 3,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 4
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 2,
+			"Y": 4,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "WireDoor",
+			"X": 3,
+			"Y": 4
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 6,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 5,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 5,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 5,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 5,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 6,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 6,
+			"AdjacentWalls": 4
+		}
+	]
+}

@@ -1,0 +1,41 @@
+﻿{
+	"Parser": "STD1",
+	"TargetMoves": 0,
+	"Width": 5,
+	"Height": 3,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 0
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 2,
+			"Y": 0
+		},
+		{
+			"Type": "WireDoor",
+			"X": 4,
+			"Y": 0
+		},
+		{
+			"Type": "WireButton",
+			"X": 0,
+			"Y": 2,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 4,
+					"Y": 0,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 4,
+			"Y": 2
+		}
+	]
+}

@@ -1,0 +1,17 @@
+﻿{
+	"Parser": "STD1",
+	"Width": 3,
+	"Height": 2,
+	"Entities": [
+		{
+			"Type": "FinishFlag",
+			"X": 2,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 1
+		}
+	]
+}

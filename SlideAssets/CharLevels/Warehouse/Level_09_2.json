@@ -1,0 +1,92 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 19,
+	"Width": 8,
+	"Height": 9,
+	"Entities": [
+		{
+			"Type": "Sushi",
+			"X": 3,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 1,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 7,
+			"Y": 1
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 2,
+			"Y": 2
+		},
+		{
+			"Type": "WireDoor",
+			"X": 6,
+			"Y": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 3,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 3,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "HaltTile",
+			"X": 0,
+			"Y": 4
+		},
+		{
+			"Type": "WireButton",
+			"X": 3,
+			"Y": 4,
+			"Mode": "Hold",
+			"Wire": [
+				{
+					"X": 6,
+					"Y": 2,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 4,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 6,
+			"Y": 6
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 7,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 5,
+			"Y": 7
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 8,
+			"AdjacentWalls": 4
+		}
+	]
+}

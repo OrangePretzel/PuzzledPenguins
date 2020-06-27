@@ -1,0 +1,24 @@
+{
+	"Parser": "STD1",
+	"ID": "Level_Unsolvable_1",
+	"Width": 5,
+	"Height": 5,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 3,
+			"Y": 3
+		}
+	]
+}

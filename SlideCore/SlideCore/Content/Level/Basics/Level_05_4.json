@@ -1,0 +1,161 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 13,
+	"Width": 10,
+	"Height": 10,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 0,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 0,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 0,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 1,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "Portal",
+			"X": 4,
+			"Y": 1,
+			"PortalTarget": {
+				"X": 4,
+				"Y": 6
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 1,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 6,
+			"Y": 2,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Sushi",
+			"X": 4,
+			"Y": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 4,
+			"AdjacentWalls": 128
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 4,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 5,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 5,
+			"AdjacentWalls": 8
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 1,
+			"Y": 6,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "Portal",
+			"X": 4,
+			"Y": 6,
+			"PortalTarget": {
+				"X": 4,
+				"Y": 1
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 7,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 5,
+			"Y": 7
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 7,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 7,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 7,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 5,
+			"Y": 8,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 7,
+			"Y": 8,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 9,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 9,
+			"Y": 9
+		}
+	]
+}

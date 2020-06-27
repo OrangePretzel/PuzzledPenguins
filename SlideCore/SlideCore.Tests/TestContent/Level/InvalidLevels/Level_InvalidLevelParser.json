@@ -1,0 +1,22 @@
+﻿{
+	"Parser": "INVALID_PARSER",
+	"Width": 3,
+	"Height": 2,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 1
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 2,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 1
+		}
+	]
+}

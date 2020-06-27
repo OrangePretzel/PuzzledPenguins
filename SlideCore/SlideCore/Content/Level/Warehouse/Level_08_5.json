@@ -1,0 +1,169 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 28,
+	"Width": 9,
+	"Height": 9,
+	"Entities": [
+		{
+			"Type": "RedirectTile",
+			"X": 1,
+			"Y": 0,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "HaltTile",
+			"X": 4,
+			"Y": 0
+		},
+		{
+			"Type": "WireButton",
+			"X": 7,
+			"Y": 1,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 0,
+					"Y": 3,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 2,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Sushi",
+			"X": 6,
+			"Y": 2
+		},
+		{
+			"Type": "WireDoor",
+			"X": 0,
+			"Y": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 3,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "WireButton",
+			"X": 2,
+			"Y": 3,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 0,
+					"Y": 4,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Portal",
+			"X": 4,
+			"Y": 3,
+			"PortalTarget": {
+				"X": 5,
+				"Y": 4
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 3,
+			"AdjacentWalls": 36
+		},
+		{
+			"Type": "WireDoor",
+			"X": 0,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 4,
+			"AdjacentWalls": 68
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 4,
+			"AdjacentWalls": 66
+		},
+		{
+			"Type": "Portal",
+			"X": 5,
+			"Y": 4,
+			"PortalTarget": {
+				"X": 4,
+				"Y": 3
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 4,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 0,
+			"Y": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 5,
+			"AdjacentWalls": 36
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 5,
+			"AdjacentWalls": 68
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 6,
+			"Y": 5
+		},
+		{
+			"Type": "HaltTile",
+			"X": 8,
+			"Y": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 6,
+			"AdjacentWalls": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 6,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "Player",
+			"X": 5,
+			"Y": 7
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 8,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "HaltTile",
+			"X": 5,
+			"Y": 8
+		}
+	]
+}

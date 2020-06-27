@@ -1,0 +1,29 @@
+﻿{
+	"Parser": "STD1",
+	"TargetMoves": 0,
+	"Width": 5,
+	"Height": 2,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 0
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 2,
+			"Y": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 0,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 4,
+			"Y": 1
+		}
+	]
+}

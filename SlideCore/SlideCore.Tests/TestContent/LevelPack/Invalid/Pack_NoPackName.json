@@ -1,0 +1,12 @@
+﻿{
+	"Levels": [
+		{
+			"ID": "DefaultLevels/Level_1_1",
+			"DisplayName": "1 - 1"
+		},
+		{
+			"ID": "DefaultLevels/Level_1_2",
+			"DisplayName": "1 - 2"
+		}
+	]
+}

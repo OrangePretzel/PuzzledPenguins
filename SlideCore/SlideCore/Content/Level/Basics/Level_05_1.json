@@ -1,0 +1,82 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 5,
+	"Width": 6,
+	"Height": 6,
+	"Entities": [
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 0,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 5,
+			"Y": 0
+		},
+		{
+			"Type": "Sushi",
+			"X": 0,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 1,
+			"AdjacentWalls": 128
+		},
+		{
+			"Type": "Portal",
+			"X": 4,
+			"Y": 1,
+			"PortalTarget": {
+				"X": 2,
+				"Y": 3
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 2,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 2,
+			"AdjacentWalls": 136
+		},
+		{
+			"Type": "Portal",
+			"X": 2,
+			"Y": 3,
+			"PortalTarget": {
+				"X": 4,
+				"Y": 1
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 3,
+			"AdjacentWalls": 9
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 3,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "HaltTile",
+			"X": 2,
+			"Y": 5
+		},
+		{
+			"Type": "Player",
+			"X": 4,
+			"Y": 5
+		}
+	]
+}

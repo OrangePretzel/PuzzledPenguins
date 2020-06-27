@@ -1,0 +1,89 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 13,
+	"Width": 8,
+	"Height": 9,
+	"Entities": [
+		{
+			"Type": "Portal",
+			"X": 1,
+			"Y": 0,
+			"PortalTarget": {
+				"X": 6,
+				"Y": 4
+			}
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 0,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "HaltTile",
+			"X": 4,
+			"Y": 2
+		},
+		{
+			"Type": "HaltTile",
+			"X": 5,
+			"Y": 2
+		},
+		{
+			"Type": "Sushi",
+			"X": 2,
+			"Y": 3
+		},
+		{
+			"Type": "HaltTile",
+			"X": 3,
+			"Y": 3
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 4,
+			"Y": 3
+		},
+		{
+			"Type": "HaltTile",
+			"X": 4,
+			"Y": 4
+		},
+		{
+			"Type": "HaltTile",
+			"X": 5,
+			"Y": 4
+		},
+		{
+			"Type": "Portal",
+			"X": 6,
+			"Y": 4,
+			"PortalTarget": {
+				"X": 1,
+				"Y": 0
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 5,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 4,
+			"Y": 6
+		},
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 8
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 8,
+			"AdjacentWalls": 0
+		}
+	]
+}

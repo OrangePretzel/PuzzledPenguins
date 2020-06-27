@@ -1,0 +1,35 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 4,
+	"Width": 6,
+	"Height": 6,
+	"Entities": [
+		{
+			"Type": "Sushi",
+			"X": 5,
+			"Y": 0
+		},
+		{
+			"Type": "Player",
+			"X": 2,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 1,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 3,
+			"Y": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 4,
+			"AdjacentWalls": 0
+		}
+	]
+}

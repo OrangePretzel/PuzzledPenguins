@@ -1,0 +1,39 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 9,
+	"Width": 6,
+	"Height": 6,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 3,
+			"Y": 1
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 1,
+			"Y": 2
+		},
+		{
+			"Type": "Sushi",
+			"X": 3,
+			"Y": 2
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 3,
+			"Y": 3
+		}
+	]
+}

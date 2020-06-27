@@ -1,0 +1,64 @@
+﻿{
+	"Parser": "STD1",
+	"TargetMoves": 0,
+	"Width": 5,
+	"Height": 5,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 0
+		},
+		{
+			"Type": "HaltTile",
+			"X": 0,
+			"Y": 2
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 2,
+			"Y": 2
+		},
+		{
+			"Type": "WireButton",
+			"X": 4,
+			"Y": 2,
+			"Mode": "Hold",
+			"Wire": [
+				{
+					"X": 2,
+					"Y": 4,
+					"Invert": false
+				}
+			]
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 3,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 3,
+			"AdjacentWalls": 17
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 3,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "WireDoor",
+			"X": 2,
+			"Y": 4
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 4,
+			"Y": 4
+		}
+	]
+}

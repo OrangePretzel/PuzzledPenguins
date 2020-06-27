@@ -1,0 +1,132 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 10,
+	"Width": 8,
+	"Height": 10,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Portal",
+			"X": 1,
+			"Y": 1,
+			"PortalTarget": {
+				"X": 4,
+				"Y": 5
+			}
+		},
+		{
+			"Type": "Player",
+			"X": 2,
+			"Y": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 2,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 2,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 2,
+			"AdjacentWalls": 129
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 2,
+			"AdjacentWalls": 80
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 3,
+			"AdjacentWalls": 36
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 3,
+			"AdjacentWalls": 12
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 4,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 4,
+			"AdjacentWalls": 2
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 0,
+			"Y": 5
+		},
+		{
+			"Type": "Portal",
+			"X": 4,
+			"Y": 5,
+			"PortalTarget": {
+				"X": 1,
+				"Y": 1
+			}
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 6,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 6,
+			"Y": 6,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 6,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 1,
+			"Y": 8,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 3,
+			"Y": 8,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 8,
+			"RedirectDir": 0
+		}
+	]
+}

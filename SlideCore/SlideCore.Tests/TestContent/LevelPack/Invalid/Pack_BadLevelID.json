@@ -1,0 +1,13 @@
+﻿{
+	"PackName": "Test Pack 1",
+	"Levels": [
+		{
+			"ID": "DefaultLevels/Level_1_1",
+			"DisplayName": "1 - 1"
+		},
+		{
+			"ID": "  ",
+			"DisplayName": "1 - 2"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<DebugType>Full</DebugType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Content\" />
+	</ItemGroup>
+
+    
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="powershell Copy-Item -Path $(ProjectDir)Content -Destination $(TargetDir) -Recurse -Force" />
+	</Target>
+   
+    
+</Project>

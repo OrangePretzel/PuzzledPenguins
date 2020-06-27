@@ -1,0 +1,209 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 27,
+	"Width": 9,
+	"Height": 10,
+	"Entities": [
+		{
+			"Type": "HaltTile",
+			"X": 2,
+			"Y": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 0,
+			"AdjacentWalls": 65
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 0,
+			"AdjacentWalls": 48
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 7,
+			"Y": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "HaltTile",
+			"X": 0,
+			"Y": 1
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 2,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 1,
+			"AdjacentWalls": 6
+		},
+		{
+			"Type": "Sushi",
+			"X": 6,
+			"Y": 1
+		},
+		{
+			"Type": "Portal",
+			"X": 8,
+			"Y": 2,
+			"PortalTarget": {
+				"X": 0,
+				"Y": 7
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 3,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 3,
+			"AdjacentWalls": 225
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 3,
+			"AdjacentWalls": 240
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 4,
+			"AdjacentWalls": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 4,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 4,
+			"AdjacentWalls": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 4,
+			"AdjacentWalls": 151
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 4,
+			"AdjacentWalls": 93
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 4,
+			"AdjacentWalls": 56
+		},
+		{
+			"Type": "WireDoor",
+			"X": 7,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 4,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 5
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 5,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 5,
+			"AdjacentWalls": 78
+		},
+		{
+			"Type": "HaltTile",
+			"X": 4,
+			"Y": 6
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 6,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "Portal",
+			"X": 0,
+			"Y": 7,
+			"PortalTarget": {
+				"X": 8,
+				"Y": 2
+			}
+		},
+		{
+			"Type": "HaltTile",
+			"X": 4,
+			"Y": 8
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 8,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 2,
+			"Y": 9
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 9,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 9,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "WireButton",
+			"X": 8,
+			"Y": 9,
+			"Mode": "PressOnly",
+			"Wire": [
+				{
+					"X": 7,
+					"Y": 4,
+					"Invert": false
+				}
+			]
+		}
+	]
+}

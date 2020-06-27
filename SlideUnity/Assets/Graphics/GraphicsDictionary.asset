@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b57c541cff918c41a69423aa6e9582d, type: 3}
+  m_Name: GraphicsDictionary
+  m_EditorClassIdentifier: 
+  WallSprite: {fileID: 21300000, guid: 7ea265d5aba78544594415762b7f3abf, type: 3}
+  SeamlessWallGraphics: {fileID: 11400000, guid: 4b7a262313cfffa4f991ba5759ffa0f5,
+    type: 2}
+  SeamlessWaterGraphics: {fileID: 11400000, guid: 4b7a262313cfffa4f991ba5759ffa0f5,
+    type: 2}
+  FinishFlagSprites:
+  - {fileID: 21300016, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  - {fileID: 21300018, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  - {fileID: 21300020, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  - {fileID: 21300022, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  RedirectTileSprite: {fileID: 21300006, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  HaltTileSprite: {fileID: 21300008, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  PitSprite: {fileID: 21300010, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  PortalSprites:
+  - {fileID: 21300014, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  - {fileID: 21300030, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  - {fileID: 21300046, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  - {fileID: 21300062, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  SlidingCrateSprite: {fileID: 21300032, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  JumpTileSprites:
+    JumpTileSprite_Normal: {fileID: 21300092, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    JumpTileSprite_Extended: {fileID: 21300090, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    JumpTileSprite_Compressed: {fileID: 21300094, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+  WireButtonSprites:
+    ButtonSprite_Toggle_Off: {fileID: 21300080, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    ButtonSprite_Toggle_Transition: {fileID: 21300082, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    ButtonSprite_Toggle_On: {fileID: 21300084, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    ButtonSprite_Hold_On: {fileID: 21300088, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    ButtonSprite_Hold_Off: {fileID: 21300086, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    ButtonSprite_Press_On: {fileID: 21300066, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    ButtonSprite_Press_Off: {fileID: 21300064, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+  WireDoorSprites:
+    WireDoor_Open: {fileID: 21300076, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+    WireDoor_Transition:
+    - {fileID: 21300060, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+    - {fileID: 21300074, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+    WireDoor_Closed: {fileID: 21300058, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+  SushiSprites:
+    SushiSprite: {fileID: 21300012, guid: d1fcd5e0b896e0e4797eebc0d2616f1d, type: 3}
+    SushiSprite_Ghost: {fileID: 21300028, guid: d1fcd5e0b896e0e4797eebc0d2616f1d,
+      type: 3}
+    Sushi_BobAnimation: {fileID: 7400000, guid: d991074c8a98be942987e65fbdf37688,
+      type: 2}
+    Sushi_CollectAnimation: {fileID: 7400000, guid: a8e3826eabd12ea48b8c7f47b76065b2,
+      type: 2}
+  UISprites:
+    LevelTileSprites:
+      LevelTile_Locked: {fileID: 21300000, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_Unsolved: {fileID: 21300002, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_Solved: {fileID: 21300004, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_StarOff: {fileID: 21300006, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_StarOn: {fileID: 21300012, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_SushiOff: {fileID: 21300008, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_SushiOn: {fileID: 21300014, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_MinMovesOff: {fileID: 21300010, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+      LevelTile_MinMovesOn: {fileID: 21300016, guid: 2dc6ae99770bb894c8cbac4f388abdc5,
+        type: 3}
+    LevelCompleteSprites:
+      LevelComplete_StarOff: {fileID: 21300046, guid: 82affb96452ff5c47b5a77a07864e5e9,
+        type: 3}
+      LevelComplete_StarOn: {fileID: 21300054, guid: 82affb96452ff5c47b5a77a07864e5e9,
+        type: 3}
+      LevelComplete_SushiOff: {fileID: 21300014, guid: 82affb96452ff5c47b5a77a07864e5e9,
+        type: 3}
+      LevelComplete_SushiOn: {fileID: 21300022, guid: 82affb96452ff5c47b5a77a07864e5e9,
+        type: 3}
+      LevelComplete_MinMovesOff: {fileID: 21300030, guid: 82affb96452ff5c47b5a77a07864e5e9,
+        type: 3}
+      LevelComplete_MinMovesOn: {fileID: 21300038, guid: 82affb96452ff5c47b5a77a07864e5e9,
+        type: 3}

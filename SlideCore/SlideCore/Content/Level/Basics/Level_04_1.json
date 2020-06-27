@@ -1,0 +1,40 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 5,
+	"Width": 6,
+	"Height": 6,
+	"Entities": [
+		{
+			"Type": "HaltTile",
+			"X": 2,
+			"Y": 1
+		},
+		{
+			"Type": "Sushi",
+			"X": 0,
+			"Y": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 2,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 2,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 4,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 4,
+			"Y": 4
+		}
+	]
+}

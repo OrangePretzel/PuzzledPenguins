@@ -1,0 +1,77 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 7,
+	"Width": 10,
+	"Height": 9,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 1,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 2,
+			"AdjacentWalls": 128
+		},
+		{
+			"Type": "Sushi",
+			"X": 3,
+			"Y": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 3,
+			"AdjacentWalls": 8
+		},
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 5,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 6,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 7,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 1,
+			"Y": 7
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 7,
+			"AdjacentWalls": 68
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 8,
+			"AdjacentWalls": 4
+		}
+	]
+}

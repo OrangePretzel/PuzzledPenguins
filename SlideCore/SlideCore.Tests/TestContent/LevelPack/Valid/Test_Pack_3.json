@@ -1,0 +1,25 @@
+﻿{
+	"PackName": "Test Pack 3",
+	"Levels": [
+		{
+			"ID": "Level_1",
+			"DisplayName": "Level 1"
+		},
+		{
+			"ID": "Level_2",
+			"DisplayName": "Level 2"
+		},
+		{
+			"ID": "Level_3",
+			"DisplayName": "Level 3"
+		},
+		{
+			"ID": "Level_4",
+			"DisplayName": "Level 4"
+		},
+		{
+			"ID": "Level_5",
+			"DisplayName": "Level 5"
+		}
+	]
+}

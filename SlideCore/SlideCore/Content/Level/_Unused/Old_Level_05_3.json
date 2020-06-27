@@ -1,0 +1,138 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 9,
+	"Width": 8,
+	"Height": 8,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 0,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Portal",
+			"X": 1,
+			"Y": 1,
+			"PortalTarget": {
+				"X": 5,
+				"Y": 5
+			}
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 1,
+			"AdjacentWalls": 225
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 1,
+			"AdjacentWalls": 112
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 1,
+			"AdjacentWalls": 36
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 2,
+			"AdjacentWalls": 131
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 2,
+			"AdjacentWalls": 87
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 2,
+			"AdjacentWalls": 60
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 2,
+			"AdjacentWalls": 2
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 3,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 3,
+			"AdjacentWalls": 14
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 4,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 4,
+			"AdjacentWalls": 32
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 2,
+			"Y": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 5,
+			"AdjacentWalls": 2
+		},
+		{
+			"Type": "Portal",
+			"X": 5,
+			"Y": 5,
+			"PortalTarget": {
+				"X": 1,
+				"Y": 1
+			}
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 6,
+			"Y": 5,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 6,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 1,
+			"Y": 6
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 7,
+			"AdjacentWalls": 0
+		}
+	]
+}

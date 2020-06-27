@@ -1,0 +1,14 @@
+{
+	"name": "puzzled-penguins-analytics",
+	"version": "1.0.0",
+	"description": "",
+	"author": "Teridium Labs",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.3",
+		"googleapis": "^32.0.0"
+	},
+	"scripts": {
+		"start": "node ./app.js"
+	}
+}

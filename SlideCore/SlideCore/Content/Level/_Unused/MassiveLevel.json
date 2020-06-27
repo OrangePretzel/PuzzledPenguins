@@ -1,0 +1,444 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 30,
+	"Width": 20,
+	"Height": 20,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 10,
+			"Y": 0,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 11,
+			"Y": 0,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 1,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 17,
+			"Y": 1,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 2,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 17,
+			"Y": 2,
+			"AdjacentWalls": 100
+		},
+		{
+			"Type": "Wall",
+			"X": 19,
+			"Y": 2,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 3,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 3,
+			"AdjacentWalls": 145
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 3,
+			"AdjacentWalls": 80
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 3,
+			"AdjacentWalls": 68
+		},
+		{
+			"Type": "Wall",
+			"X": 16,
+			"Y": 3,
+			"AdjacentWalls": 3
+		},
+		{
+			"Type": "Wall",
+			"X": 17,
+			"Y": 3,
+			"AdjacentWalls": 20
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 4,
+			"AdjacentWalls": 12
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 4,
+			"AdjacentWalls": 68
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 5,
+			"AdjacentWalls": 32
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 5,
+			"AdjacentWalls": 228
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 6,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 6,
+			"AdjacentWalls": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 12,
+			"Y": 6,
+			"AdjacentWalls": 195
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 6,
+			"AdjacentWalls": 117
+		},
+		{
+			"Type": "Wall",
+			"X": 14,
+			"Y": 6,
+			"AdjacentWalls": 57
+		},
+		{
+			"Type": "Wall",
+			"X": 15,
+			"Y": 6,
+			"AdjacentWalls": 17
+		},
+		{
+			"Type": "Wall",
+			"X": 16,
+			"Y": 6,
+			"AdjacentWalls": 17
+		},
+		{
+			"Type": "Wall",
+			"X": 17,
+			"Y": 6,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "Wall",
+			"X": 19,
+			"Y": 6,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 12,
+			"Y": 7,
+			"AdjacentWalls": 135
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 7,
+			"AdjacentWalls": 94
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 8,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 8,
+			"AdjacentWalls": 76
+		},
+		{
+			"Type": "Wall",
+			"X": 15,
+			"Y": 8,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 9,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 11,
+			"Y": 9,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 9,
+			"AdjacentWalls": 196
+		},
+		{
+			"Type": "Wall",
+			"X": 18,
+			"Y": 9,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 11,
+			"Y": 10,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 10,
+			"AdjacentWalls": 69
+		},
+		{
+			"Type": "Wall",
+			"X": 14,
+			"Y": 10,
+			"AdjacentWalls": 56
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 11,
+			"AdjacentWalls": 128
+		},
+		{
+			"Type": "Wall",
+			"X": 8,
+			"Y": 11,
+			"AdjacentWalls": 128
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 11,
+			"AdjacentWalls": 102
+		},
+		{
+			"Type": "Wall",
+			"X": 3,
+			"Y": 12,
+			"AdjacentWalls": 8
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 4,
+			"Y": 12
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 12,
+			"AdjacentWalls": 200
+		},
+		{
+			"Type": "Wall",
+			"X": 12,
+			"Y": 12,
+			"AdjacentWalls": 195
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 12,
+			"AdjacentWalls": 116
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 13,
+			"AdjacentWalls": 65
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 13,
+			"AdjacentWalls": 48
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 13,
+			"AdjacentWalls": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 10,
+			"Y": 13,
+			"AdjacentWalls": 24
+		},
+		{
+			"Type": "Wall",
+			"X": 12,
+			"Y": 13,
+			"AdjacentWalls": 135
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 13,
+			"AdjacentWalls": 220
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 14,
+			"AdjacentWalls": 70
+		},
+		{
+			"Type": "Wall",
+			"X": 13,
+			"Y": 14,
+			"AdjacentWalls": 45
+		},
+		{
+			"Type": "Wall",
+			"X": 14,
+			"Y": 14,
+			"AdjacentWalls": 24
+		},
+		{
+			"Type": "Wall",
+			"X": 19,
+			"Y": 14,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 15,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 9,
+			"Y": 15,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 12,
+			"Y": 15,
+			"AdjacentWalls": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 16,
+			"AdjacentWalls": 128
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 17,
+			"AdjacentWalls": 8
+		},
+		{
+			"Type": "Wall",
+			"X": 17,
+			"Y": 17,
+			"AdjacentWalls": 32
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 18,
+			"AdjacentWalls": 192
+		},
+		{
+			"Type": "Wall",
+			"X": 16,
+			"Y": 18,
+			"AdjacentWalls": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 19,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 19,
+			"AdjacentWalls": 5
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 19,
+			"AdjacentWalls": 24
+		},
+		{
+			"Type": "Wall",
+			"X": 12,
+			"Y": 19,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 19,
+			"Y": 19,
+			"AdjacentWalls": 0
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "su_level2jsonconverter",
+	"version": "1.0.0",
+	"description": "A Node.js utility to convert levels in simple char format to JSON format",
+	"dependencies": {
+		"yargs": "^11.0.0"
+	},
+	"author": "Joshua Ansari"
+}

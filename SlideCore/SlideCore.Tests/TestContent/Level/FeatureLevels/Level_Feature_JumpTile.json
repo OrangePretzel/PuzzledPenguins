@@ -1,0 +1,40 @@
+﻿{
+	"Parser": "STD1",
+	"TargetMoves": 0,
+	"Width": 5,
+	"Height": 5,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 0,
+			"Y": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 4,
+			"Y": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 4,
+			"Y": 1,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "JumpTile",
+			"X": 0,
+			"Y": 2
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 3,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "JumpTile",
+			"X": 4,
+			"Y": 3
+		}
+	]
+}

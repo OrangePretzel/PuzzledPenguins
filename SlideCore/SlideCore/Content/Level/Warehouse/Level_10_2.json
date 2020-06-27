@@ -1,0 +1,108 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 26,
+	"Width": 8,
+	"Height": 8,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 6,
+			"Y": 0,
+			"AdjacentWalls": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 7,
+			"Y": 0,
+			"AdjacentWalls": 16
+		},
+		{
+			"Type": "HaltTile",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 3,
+			"Y": 1,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 4,
+			"Y": 1
+		},
+		{
+			"Type": "HaltTile",
+			"X": 5,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 6,
+			"Y": 3,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 0,
+			"Y": 4
+		},
+		{
+			"Type": "Sushi",
+			"X": 3,
+			"Y": 4
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 5,
+			"AdjacentWalls": 64
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 6,
+			"AdjacentWalls": 68
+		},
+		{
+			"Type": "SlidingCrate",
+			"X": 3,
+			"Y": 6
+		},
+		{
+			"Type": "HaltTile",
+			"X": 7,
+			"Y": 6
+		},
+		{
+			"Type": "Wall",
+			"X": 0,
+			"Y": 7,
+			"AdjacentWalls": 4
+		},
+		{
+			"Type": "Player",
+			"X": 1,
+			"Y": 7
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 7,
+			"AdjacentWalls": 0
+		}
+	]
+}

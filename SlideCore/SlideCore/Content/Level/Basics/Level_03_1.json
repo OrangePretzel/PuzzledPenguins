@@ -1,0 +1,41 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 3,
+	"Width": 6,
+	"Height": 6,
+	"Entities": [
+		{
+			"Type": "Sushi",
+			"X": 0,
+			"Y": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 1,
+			"Y": 0,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 4,
+			"Y": 1
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 4,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 5,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 2,
+			"Y": 5
+		}
+	]
+}

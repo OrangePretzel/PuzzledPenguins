@@ -1,0 +1,100 @@
+{
+	"Parser": "STD1",
+	"TargetMoves": 6,
+	"Width": 8,
+	"Height": 9,
+	"Entities": [
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 0,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Player",
+			"X": 7,
+			"Y": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 6,
+			"Y": 1,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 1,
+			"Y": 2,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 5,
+			"Y": 2,
+			"RedirectDir": 3
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 3,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 3,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 0,
+			"Y": 4
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 0,
+			"Y": 5,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 6,
+			"RedirectDir": 0
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 5,
+			"Y": 6,
+			"RedirectDir": 1
+		},
+		{
+			"Type": "HaltTile",
+			"X": 1,
+			"Y": 7
+		},
+		{
+			"Type": "RedirectTile",
+			"X": 4,
+			"Y": 7,
+			"RedirectDir": 2
+		},
+		{
+			"Type": "Sushi",
+			"X": 0,
+			"Y": 8
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 8,
+			"AdjacentWalls": 0
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 8,
+			"AdjacentWalls": 0
+		}
+	]
+}

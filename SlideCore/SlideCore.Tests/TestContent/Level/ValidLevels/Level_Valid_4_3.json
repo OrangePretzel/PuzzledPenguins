@@ -1,0 +1,33 @@
+﻿{
+	"Parser": "STD1",
+	"TargetMoves": 4,
+	"Width": 6,
+	"Height": 7,
+	"Entities": [
+		{
+			"Type": "Player",
+			"X": 2,
+			"Y": 1
+		},
+		{
+			"Type": "FinishFlag",
+			"X": 3,
+			"Y": 2
+		},
+		{
+			"Type": "Wall",
+			"X": 1,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 5,
+			"Y": 1
+		},
+		{
+			"Type": "Wall",
+			"X": 2,
+			"Y": 2
+		}
+	]
+}
