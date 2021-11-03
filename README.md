@@ -1,5 +1,4 @@
 # The Repository for Puzzled Penguins
-Playstore: https://play.google.com/store/apps/details?id=com.teridiumlabs.puzzledpenguins
 
 # Build Instructions
 1. Clone the Repo
